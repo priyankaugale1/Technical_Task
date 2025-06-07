@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Boxes</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <main class="container">
+        <div class="heading-wrapper">
+            <div class="line"></div>
+            <h2 class="highlight-heading">YAY! It’s BOGO</h2>
+            <div class="line"></div>
+        </div>
+
+        <section class="box" data-price="10">
+            <div class="box-header">
+                <label><input type="radio" name="offer" class="radiobtn" /><span class="unit">1 Unit</span> <span
+                        class="discount">10% Off</span><br /><span class="tag">Standard Price</span></label>
+                <div class="price">$10.00 USD <br /><span class="old-price">$24.00 USD</span></div>
+            </div>
+            <div class="box-body">
+                <div class="option-group">
+                    <label class="option-label"><span class="option-Title">Size:</span>
+                        <div class="select-wrapper">
+                            <span>#1</span>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+
+                    </label>
+                    <label class="option-label">Color:
+                        <select>
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Blue</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="option-group">
+                    <label class="option-label">
+                        <div class="select-wrapper">
+                            <span>#2</span>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                    </label>
+                    <label class="option-label">
+                        <select>
+                            <option>Red</option>
+                            <option>White</option>
+                            <option>Black</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+        </section>
+        <section class="box popular" data-price="18">
+            <div class="activeTag">Most Popular</div>
+            <div class="box-header ">
+                <label><input type="radio" name="offer" class="radiobtn" /><span class="unit">2 Unit</span><span
+                        class="discount">20% Off</span></label>
+                <div class="price">$18.00 <br /><span class="old-price">$48.00</span></div>
+            </div>
+            <div class="box-body">
+                <div class="option-group">
+                    <label class="option-label"><span class="option-Title">Size:</span>
+                        <div class="select-wrapper">
+                            <span>#1</span>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                    </label>
+                    <label class="option-label">Color:
+                        <select>
+                            <option>Red</option>
+                            <option>Green</option>
+                            <option>Blue</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="option-group">
+                    <label class="option-label">
+                        <div class="select-wrapper">
+                            <span>#2</span>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                    </label>
+                    <label class="option-label">
+                        <select>
+                            <option>Black</option>
+                            <option>White</option>
+                            <option>Grey</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+        </section>
+        <section class="box" data-price="24">
+            <div class="box-header">
+                <label><input type="radio" name="offer" class="radiobtn" /><span class="unit">3 Unit</span><span
+                        class="discount">30% Off</span></label>
+                <div class="price">$24.00 <br /><span class="old-price">$72.00</span></div>
+            </div>
+            <div class="box-body">
+                <div class="option-group">
+                    <label class="option-label"><span class="option-Title">Size:</span>
+                        <div class="select-wrapper">
+                            <span>#1</span>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                    </label>
+                    <label class="option-label">Color:
+                        <select>
+                            <option>Yellow</option>
+                            <option>Pink</option>
+                            <option>Brown</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="option-group">
+                    <label class="option-label">
+                        <div class="select-wrapper">
+                            <span>#2</span>
+                            <select>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                            </select>
+                        </div>
+                    </label>
+                    <label class="option-label">
+                        <select>
+                            <option>Red</option>
+                            <option>White</option>
+                            <option>Black</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+        </section>
+        <div class="totalUsd">
+            <p class="freeDelivery">Free Delivery</p>
+            <p class="total">Total : <span id="total-price">$18.00 USD</span></p>
+        </div>
+
+        <footer class="summary">
+            <button class="add-to-cart"> + Add to Cart</button>
+            <span class="footerText">@ Powered by Pumper</span>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
