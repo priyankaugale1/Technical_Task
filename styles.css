@@ -15,6 +15,7 @@ body {
 .radiobtn {
   margin: 10px;
   accent-color: #ff4f81;
+  cursor: pointer;
 }
 
 .select-wrapper {
@@ -22,6 +23,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 
 .totalUsd {
@@ -45,7 +47,7 @@ body {
 }
 
 .freeDelivery {
-  color: #ff4f81;
+  color: #ff6B82;
   font-weight: 500;
 }
 
@@ -58,7 +60,7 @@ body {
 }
 
 .highlight-heading {
-  color: #ff4f81;
+  color: #ff6B82;
   font-size: 20px;
   font-weight: bold;
   white-space: nowrap;
@@ -74,7 +76,7 @@ body {
 }
 
 .box.active {
-  border-color: #ff4f81;
+  border-color: #ff6B82;
   background-color: #fff0f5;
 }
 
@@ -107,7 +109,7 @@ body {
 }
 
 .discount {
-  background: #ff4f81;
+  background: #ff6B82;
   color: white;
   font-size: 12px;
   padding: 3px 7px;
@@ -140,7 +142,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 14px;
-  padding-left: 29px;
+  padding-left: 33px;
   margin-bottom: 10px;
   flex-wrap: wrap;
 }
@@ -161,14 +163,14 @@ select {
 }
 
 .activeTag {
-  background-color: #ff4f81;
+  background-color: #ff6B82;
   color: white;
-  font-size: 13px;
-  padding: 5px 8px;
+  font-size: 14px;
+  padding: 5px 18px;
   border-radius: 4px;
   position: absolute;
-  top: 11px;
-  right: 0px;
+  top: 6px;
+  right: 4px;
   transform: translateY(-50%);
 }
 
@@ -192,7 +194,7 @@ select {
 
 .add-to-cart {
   width: 100%;
-  background-color: #ff4f81;
+  background-color: #ff6B82;
   color: white;
   border: none;
   padding: 12px 20px;
