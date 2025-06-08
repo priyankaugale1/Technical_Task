@@ -119,6 +119,7 @@ body {
 .price {
   font-size: 14.46px;
   font-weight: 600;
+  padding-right: 13px;
 }
 
 .option-label {
@@ -171,8 +172,6 @@ select {
   transform: translateY(-50%);
 }
 
-
-
 .summary {
   text-align: center;
   margin-top: 5px;
@@ -210,8 +209,8 @@ select {
   font-size: 12px;
   font-weight: 400;
   margin-top: 4px;
-
 }
+
 
 @media (max-width: 480px) {
   .box-header {
